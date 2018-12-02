@@ -40,7 +40,7 @@ public class MultiThreadChatClient implements Runnable {
 
             int loop = 0;
             while(loop < message_count) {
-                Thread.sleep(500);
+                Thread.sleep(1000);
                 String message = "message:Message - " + loop;
                 //System.out.println(message);
                 printWriter.println(message);
