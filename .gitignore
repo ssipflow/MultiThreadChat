@@ -6,7 +6,6 @@ Thumbs.db
 
 # WebStorm
 .idea/
-*.iml
 
 # vi
 *~
@@ -15,4 +14,3 @@ Thumbs.db
 log/
 *.log
 *.txt
-
