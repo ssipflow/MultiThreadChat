@@ -11,16 +11,9 @@ import java.util.Scanner;
 public class MultiThreadChatClient {
 
     private static final int SERVER_PORT = 5000;
+    private static final String SERVER_IP = "127.0.0.1";
 
     public static void main(String[] args) {
-
-        if(args.length == 0) {
-            System.out.println("$ java com.chat.main.MultiThreadChatClient [SERVER_IP]");
-            System.exit(1);
-        }
-
-        String SERVER_IP = args[0];
-
         String name = null;
         Scanner scanner = new Scanner(System.in);
 
