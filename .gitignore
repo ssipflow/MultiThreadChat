@@ -1,0 +1,18 @@
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# WebStorm
+.idea/
+*.iml
+
+# vi
+*~
+
+# General
+log/
+*.log
+*.txt
+
