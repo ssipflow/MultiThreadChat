@@ -42,3 +42,5 @@
 
 6. sentbe.txt 로그파일 확인  
     ```$ cat ~/MultiThreadChat/multi-thread-chat-server/src/sentbe.txt```
+
+Hello
